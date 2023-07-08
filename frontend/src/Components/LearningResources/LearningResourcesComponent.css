@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --roboto-family: 'Roboto', sans-serif;
+    --poppins-family: 'Poppins', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+    --comman-heading-color: #15295f;
+    --navigation-menu-color: #15295f;
+    --content-background-color: #fdf8f7;
+    --comman-button-color: #fd6e0a;
+    --bs-gutter-x: 1.5rem;
+    --cf-primary-color: #fd6e0a;
+    --bs-gutter-y: 0;
+    --developer-intro-text: #6f6b80;
+    --validation-error: #E91100;
+    --projects-experience-card: #fefefe;
+}
+
+body {
+    background-color: #fefefe;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.learning-resources-section{
+    width: 100%;
+}
+.learning-resources-section .resources-container{
+    width: 100%;
+    margin: auto;
+}

@@ -1,0 +1,1459 @@
+
+
+
+
+
+
+/* first contact page style code ----------------------------------------------------- */
+
+.contact-section .contact-container .contact-content .social-media {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.contact-section .contact-container .contact-content .social-media a {
+    margin-right: 12px;
+}
+
+.contact-section .contact-container .contact-content .social-media a i {
+    font-size: 23px;
+    color: #6f6b80;
+}
+
+/* .contact-section .contact-container .contact-form {
+    width: 60%;
+
+    padding-left: 120px;
+
+} */
+
+.contact-section .contact-container .contact-form .form {
+    width: 90%;
+    margin: auto;
+}
+
+.contact-section .contact-container .contact-form .form .form-group {
+    width: 100%;
+
+    margin-bottom: 60px;
+}
+
+.contact-section .contact-container .contact-form .form .form-group label {
+    font-size: 1.1rem;
+    font-family: var(--poppins-family);
+    text-transform: capitalize;
+    color: #6f6b80;
+    margin-bottom: 3px;
+}
+/* 
+.contact-section .contact-container .contact-form .form .form-group input {
+
+    height: 50px;
+    width: 100%;
+    display: block;
+    background-color: var(--cf-white);
+    border: 2px solid #eeeeee;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 12px;
+    font-family: var(--poppins-family);
+    font-size: 1rem;
+} */
+
+.contact-section .contact-container .contact-form .form .form-group input:focus {
+    outline: 2px solid var(--cf-primary-color);
+    border: 2p solid var(--cf-primary-color);
+}
+
+.contact-section .contact-container .contact-form .form .textarea {
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+
+
+.contact-section .contact-container .contact-form .form .textarea textarea {
+
+
+    width: 100%;
+    height: 150px;
+    display: block;
+    background-color: var(--cf-white);
+    border: 2px solid #eeeeee;
+    outline: none;
+    box-sizing: border-box;
+    padding: 12px;
+    font-family: var(--poppins-family);
+    font-size: 1rem;
+
+
+}
+
+.contact-section .contact-container .contact-form .form .textarea .validation-error {
+    font-family: var(--poppins-family);
+    font-size: 0.9rem;
+    color: var(--validation-error);
+    padding: 2px;
+    text-transform: capitalize;
+}
+
+.contact-section .contact-container .contact-form .form .form-group .validation-error {
+    font-family: var(--poppins-family);
+    font-size: 0.9rem;
+    color: var(--validation-error);
+    padding: 2px;
+    text-transform: capitalize;
+}
+
+.contact-section .contact-container .contact-form .form .textarea textarea:focus {
+
+    border: 2px solid var(--cf-primary-color);
+}
+
+
+
+.contact-section .contact-container .contact-form .form .form-btn button {
+    width: 200px;
+    height: 70px;
+    background-color: var(--cf-primary-color);
+    border: 1px solid var(--cf-primary-color);
+    color: #fff;
+    border-radius: 500px;
+    font-size: 1.1rem;
+    font-family: var(--poppins-family);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.contact-section .contact-container .contact-form .form .form-btn button:hover {
+    background-color: #fff;
+    color: var(--cf-primary-color);
+}
+
+
+
+/* Responsive Breakpoints for the tablets and ipad */
+
+
+@media(max-width:912px) {
+
+    /*  contact section  ----------------------------------------------- */
+
+    .contact-section {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+
+    }
+
+    .contact-section .contact-container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+
+        box-sizing: border-box;
+
+    }
+
+
+    .contact-section .contact-container .contact-content {
+        width: 40%;
+    }
+
+
+    .contact-section .contact-container .contact-content .contact-title {
+
+        font-size: 1.8rem;
+        font-family: var(--roboto-family);
+        font-weight: 800;
+        color: var(--comman-heading-color);
+        text-transform: capitalize;
+        padding: 10px 0px 5px;
+    }
+
+    .contact-section .contact-container .contact-content .contact-text {
+        font-size: 1rem;
+        font-family: var(--poppins-family);
+        color: #6f6b80;
+        line-height: 1.8rem;
+    }
+
+    .contact-section .contact-container .contact-content .social-media {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .contact-section .contact-container .contact-content .social-media a {
+        margin-right: 12px;
+    }
+
+    .contact-section .contact-container .contact-content .social-media a i {
+        font-size: 23px;
+        color: #6f6b80;
+    }
+
+    .contact-section .contact-container .contact-form {
+        width: 60%;
+
+        padding-left: 0px;
+    }
+
+    .contact-section .contact-container .contact-form .form {
+        width: 93%;
+
+    }
+
+    .contact-section .contact-container .contact-form .form .form-group {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 60px;
+    }
+
+    .contact-section .contact-container .contact-form .form .form-btn button {
+        width: 180px;
+        height: 60px;
+        background-color: var(--cf-primary-color);
+        border: 1px solid var(--cf-primary-color);
+        color: #fff;
+        border-radius: 500px;
+        font-size: 1.1rem;
+        font-family: var(--poppins-family);
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+
+
+    .contact-section .contact-container .contact-form .form .textarea {
+        width: 100%;
+
+        margin-bottom: 25px;
+    }
+
+    .contact-section .contact-container .contact-form .form .textarea textarea {
+
+        height: 150px;
+        width: 100%;
+        display: block;
+        background-color: var(--cf-white);
+        border: 2px solid #eeeeee;
+        outline: none;
+        box-sizing: border-box;
+        padding: 12px;
+        font-family: var(--poppins-family);
+        font-size: 1rem;
+
+    }
+
+}
+
+/* Responsive breakpoints for the surface duo */
+
+@media(max-width:640px) {
+    /*  contact section  ----------------------------------------------- */
+
+    .contact-section {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+
+    }
+
+    .contact-section .contact-container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+    }
+
+
+    .contact-section .contact-container .contact-content {
+        width: 40%;
+        display: none;
+    }
+
+    .contact-section .contact-container .contact-form {
+        width: 90%;
+        margin: auto;
+        padding-left: 0px;
+    }
+
+    .contact-section .contact-container .contact-form .form {
+        width: 100%;
+
+    }
+
+}
+
+/* Responsive Breakpoints for the small devices like mobiles */
+@media(max-width:450px) {
+
+    .contact-section {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+
+    }
+
+    .contact-section .contact-container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+    }
+
+
+    .contact-section .contact-container .contact-content {
+        width: 40%;
+        display: none;
+    }
+
+    .contact-section .contact-container .contact-form {
+        width: 90%;
+        margin: auto;
+        padding-left: 0px;
+    }
+
+    .contact-section .contact-container .contact-form .form {
+        width: 100%;
+
+    }
+}
+
+
+/* this is about section css ----------------------------------------------------------- */
+
+/* about section -------------------------------------------------- */
+.about-section {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.about-section .header {
+
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--poppins-family);
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    color: var(--cf-primary-color);
+    position: relative;
+}
+
+.about-section .header span {
+    color: var(--cf-primary-color);
+}
+
+.about-section .about-container {
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: var(--content-background-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.about-section .about-container .about-content {
+    width: 100%;
+}
+
+.about-section .about-container .about-content .developer-img {
+    width: 250px;
+    height: 250px;
+
+    margin: auto;
+}
+
+.about-section .about-container .about-content .developer-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.about-section .about-container .about-content .developer-intro {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    font-family: var(--poppins-family);
+}
+
+.about-section .about-container .about-content .developer-intro .detail-link {
+
+    font-size: 1rem;
+    color: var(--comman-heading-color);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration:underline;
+    
+
+}
+
+
+
+.about-section .about-container .about-content .developer-intro img {
+    width: 20px;
+    height: 20px;
+}
+
+.about-section .about-container .about-line {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.about-section .about-container .about-line .left {
+    width: 43%;
+    height: 1px;
+    background-color: var(--comman-heading-color);
+}
+
+
+.about-section .about-container .about-line .mid {
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-section .about-container .about-line .mid img {
+    margin-left: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.about-section .about-container .about-line .right {
+    width: 43%;
+    height: 1px;
+    background-color: var(--comman-heading-color);
+}
+
+.about-section .about-container .socialContent {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about-section .about-container .socialContent .socialLinks {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-section .about-container .socialContent .socialLinks .gmail {
+    font-size: 0.8rem;
+    color: var(--comman-heading-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section .about-container .socialContent .socialLinks .gmail i {
+    font-size: 20px;
+    color: var(--comman-heading-color);
+    margin-right: 5px;
+
+}
+
+.about-section .about-container .socialContent .socialLinks .icons {
+
+    margin-top: 10px;
+
+}
+
+.about-section .about-container .socialContent .socialLinks .icons i {
+    font-size: 30px;
+    color: var(--comman-heading-color);
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* details card designe */
+
+
+.about-section .detail-card{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-65%);
+    box-shadow: var(--profile-card-shadow);
+    background-color: #fff;
+    padding: 20px;
+    display: none;
+    transition: ease all 0.5s;
+}
+.about-section .detail-card .header{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: start;
+  
+}
+.about-section .detail-card .header .close-card-btn{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+.about-section .detail-card .header .close-card-btn i{
+    font-size: 30px;
+    color: var(--comman-heading-color);
+    cursor: pointer;
+}
+.about-section .detail-card .header .profile-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.about-section .detail-card .header .profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.about-section .detail-card .header .profile-content{
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: start;
+}
+.about-section .detail-card .header .profile-content .admin-name{
+    font-size: 1.4rem;
+    color: var(--comman-heading-color);
+   padding-top: 3px;
+   text-transform: capitalize;
+   font-weight: 600;
+   font-family: var(--comman-font);
+   
+}
+.about-section .detail-card .header .profile-content .admin-lavel{
+   
+    color: var(----comman-heading-color);
+    font-size: 1.1rem;
+    font-family: var(--comman-font);
+    text-transform: capitalize;
+    padding-left: 4px;
+}
+.about-section .detail-card .header .profile-content  .about-admin .heading{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.about-section .detail-card .header .profile-content  .about-admin  .about-admin-description{
+    width: 340px;
+    font-size: 0.9rem;
+   
+    text-transform: capitalize;
+    color: var(--comman-text-color);
+    line-height: 1.3rem;
+    margin-top: 3px;
+    font-weight: 550;
+}
+.about-section .detail-card .header  .admin-education{
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+.about-section .detail-card .header  .admin-education .highest-qualification{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+   
+}
+.about-section .detail-card .header  .admin-education .qualification{
+    font-size: 1rem;
+ 
+    margin-top: 8px;
+    color: var(--comman-text-color);
+}
+.about-section .detail-card .header  .teaching-experience{
+    margin-left: 55px;
+   margin-top: 20px;
+}
+.about-section .detail-card .header .experience-heading{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+}
+.about-section .detail-card  .header  .experience-year{
+    font-size: 1rem;
+    font-family: var(--roboto-family);
+    margin-top: 8px;
+    color: var(--comman-text-color);
+}
+
+.about-section .detail-card  .job-details-section{
+    width: 90%;
+    display: flex;
+    margin: auto;
+   
+}
+.about-section .detail-card  .job-details-section .job-details{
+    margin-left: 85px;
+}
+.about-section .detail-card  .job-details-section .job-details .heading{
+  
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+    font-family: var(--roboto-family);
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.about-section .detail-card  .job-details-section .job-details .heading i{
+    font-size: 30px;
+    color: var(--comman-heading-color);
+    margin-right: 5px;
+ 
+}
+.about-section .detail-card .job-details-section .job-details .details{
+    padding-left: 12px;
+    margin-top: 10px;
+}
+.about-section .detail-card .job-details-section .job-details .details ul{
+    list-style: none;
+}
+
+.about-section .detail-card  .job-details-section .job-details .details ul li {
+    margin-top: 10px;
+}
+.about-section .detail-card  .job-details-section .job-details .details ul li .detail .type{
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #878787;
+    margin-right: 5px;
+}
+.about-section .detail-card .job-details-section .job-details .details ul li .detail{
+    color: #636363;
+    font-size: 1rem;
+    font-family: var(--comman-font);
+}
+/* end of profile details section  */
+.about-section .detail-card  .job-details-section .other-details{
+    margin-left: 75px;
+}
+.about-section .detail-card  .job-details-section .other-details .heading{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+    font-family: var(--roboto-family);
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.about-section .detail-card  .job-details-section .other-details .heading i{
+    font-size: 30px;
+    color: var(--comman-heading-color);
+    margin-right: 5px;
+}
+
+.about-section .detail-card  .job-details-section .other-details  .details{
+    font-size: 23px;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+.about-section .detail-card  .job-details-section .other-details  .details ul{
+    list-style: none;
+}
+.about-section .detail-card  .job-details-section .other-details  .details ul li{
+    margin-top: 10px;
+}
+.about-section .detail-card  .job-details-section .other-details  .details ul li .detail .type{
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #878787;
+    margin-right: 5px;
+}
+.about-section .detail-card  .job-details-section .other-details  .details ul li .detail{
+    font-size: 1rem;
+    font-family: var(--comman-font);
+    color: #636363;
+}
+.about-section .detail-card  .job-details-section .ranking-box{
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    position: relative;
+    
+}
+.about-section .detail-card .job-details-section .ranking-box .circular-reprogress{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    background:conic-gradient(#15295f 30deg,#ededed 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* /transition: ease all 10s; */
+  
+}
+.about-section .detail-card  .job-details-section .ranking-box .circular-reprogress::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+   
+}
+.about-section .detail-card .job-details-section .ranking-box  .value{
+    font-size: 1.4rem;
+    color: var(--cf-primary-color);
+    font-weight: 600;
+    position: absolute;
+    top: 43%;
+    left: 45%;
+    transform: translate(-45%,-43%);
+}
+.about-section .detail-card  .job-details-section .ranking-box .label{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: var(--label-color);
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+    font-family: var(--comman-font);
+}
+/* end of other details section ------------------- */
+/* Responsive Breakpoints for the Details Card  */
+/* For tablets and ipads */
+@media(max-width:912px)
+{
+    
+.about-section .detail-card{
+    width: 85%;
+    height: 400px;
+   
+}
+.about-section .detail-card .header{
+    width: 100%;
+
+    display: flex;
+    align-items: start;
+  
+  
+}
+.about-section .detail-card .header .close-card-btn{
+    position: absolute;
+    right: 0px;
+    top: -20px;
+}
+.about-section .detail-card .header .close-card-btn i{
+    font-size: 30px;
+    color: var(--comman-heading-color);
+    cursor: pointer;
+}
+.about-section .detail-card .header .profile-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.about-section .detail-card .header .profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.about-section .detail-card .header .profile-content{
+    width: 280px;
+    margin-top: 10px;
+    text-align: start;
+  
+}
+.about-section .detail-card .header .profile-content .admin-name{
+    font-size: 1rem;
+    color: var(--comman-heading-color);
+   padding-top: 3px;
+   text-transform: capitalize;
+   font-weight: 600;
+   font-family: var(--comman-font);
+   
+}
+.about-section .detail-card .header .profile-content .admin-lavel{
+   
+    color: var(----comman-heading-color);
+    font-size: 1.2rem;
+    font-family: var(--comman-font);
+    text-transform: capitalize;
+    padding-left: 4px;
+}
+.about-section .detail-card .header .profile-content  .about-admin .heading{
+    font-size: 0.9rem;
+}
+.about-section .detail-card .header .profile-content  .about-admin  .about-admin-description{
+    width: 100%;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: var(--comman-text-color);
+    line-height: 1.3rem;
+    margin-top: 3px;
+    font-weight: 550;
+}
+.about-section .detail-card .header  .admin-education{
+    margin-left: 5px;
+    margin-top: 20px;
+    
+}
+.about-section .detail-card .header  .admin-education .highest-qualification{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+   
+}
+.about-section .detail-card .header  .admin-education .qualification{
+    font-size: 0.8rem;
+    margin-top: 8px;
+    color: var(--comman-text-color);
+}
+.about-section .detail-card .header  .teaching-experience{
+    margin-left: 55px;
+   margin-top: 20px;
+}
+.about-section .detail-card .header .experience-heading{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+}
+.about-section .detail-card  .header  .experience-year{
+    font-size: 0.8rem;
+    font-family: var(--roboto-family);
+    margin-top: 8px;
+    color: var(--comman-text-color);
+}
+
+.about-section .detail-card  .job-details-section{
+    width: 100%;
+    display: flex;
+    margin: auto;
+  
+   
+}
+.about-section .detail-card  .job-details-section .job-details{
+    margin-left: 25px;
+}
+.about-section .detail-card  .job-details-section .job-details .heading{
+  
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+    font-family: var(--roboto-family);
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.about-section .detail-card  .job-details-section .job-details .heading i{
+    font-size: 30px;
+    color: var(--comman-heading-color);
+    margin-right: 5px;
+ 
+}
+.about-section .detail-card .job-details-section .job-details .details{
+    padding-left: 12px;
+    margin-top: 10px;
+}
+.about-section .detail-card .job-details-section .job-details .details ul{
+    list-style: none;
+}
+
+.about-section .detail-card  .job-details-section .job-details .details ul li {
+    margin-top: 12px;
+ 
+}
+.about-section .detail-card  .job-details-section .job-details .details ul li .detail .type{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: #878787;
+    margin-right: 5px;
+}
+.about-section .detail-card .job-details-section .job-details .details ul li .detail{
+    color: #636363;
+    font-size: 0.8rem;
+    font-family: var(--comman-font);
+}
+/* end of profile details section  */
+.about-section .detail-card  .job-details-section .other-details{
+    margin-left: 40px;
+}
+.about-section .detail-card  .job-details-section .other-details .heading{
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--comman-heading-color);
+    text-transform: capitalize;
+    font-family: var(--roboto-family);
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.about-section .detail-card  .job-details-section .other-details .heading i{
+    font-size: 30px;
+    color: var(--comman-heading-color);
+    margin-right: 5px;
+}
+
+.about-section .detail-card  .job-details-section .other-details  .details{
+    font-size: 23px;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+
+.about-section .detail-card  .job-details-section .other-details  .details ul li{
+    margin-top: 12px;
+}
+.about-section .detail-card  .job-details-section .other-details  .details ul li .detail .type{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: #878787;
+    margin-right: 5px;
+}
+.about-section .detail-card  .job-details-section .other-details  .details ul li .detail{
+    font-size: 1rem;
+    font-family: var(--comman-font);
+    color: #636363;
+}
+.about-section .detail-card  .job-details-section .ranking-box{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+    
+}
+.about-section .detail-card .job-details-section .ranking-box .circular-reprogress{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    background:conic-gradient(#15295f 30deg,#ededed 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* /transition: ease all 10s; */
+  
+}
+.about-section .detail-card  .job-details-section .ranking-box .circular-reprogress::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+   
+}
+.about-section .detail-card .job-details-section .ranking-box  .value{
+    font-size: 1.4rem;
+    color: var(--cf-primary-color);
+    font-weight: 600;
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-65%,-55%);
+}
+.about-section .detail-card  .job-details-section .ranking-box .label{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: var(--label-color);
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+    font-family: var(--comman-font);
+}
+}
+/* Responsive Breakpoints ------------------------------------------ */
+
+/* for the laptops and ipads -------------------------------------- */
+@media(max-width:912px) {
+    .about-section {
+        width: 100%;
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+
+    .about-section .about-container {
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+        background-color: var(--content-background-color);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .about-section .about-container .about-content {
+        width: 100%;
+    }
+
+    .about-section .about-container .about-content .developer-img {
+        width: 230px;
+        height: 230px;
+
+        margin: auto;
+    }
+
+    .about-section .about-container .about-content .developer-img img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    .about-section .about-container .about-line {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .about-section .about-container .about-line .left {
+        width: 40%;
+        height: 1px;
+        background-color: var(--comman-heading-color);
+    }
+
+
+    .about-section .about-container .about-line .right {
+        width: 40%;
+        height: 1px;
+        background-color: var(--comman-heading-color);
+    }
+
+    .about-section .about-container .socialContent {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .about-section .about-container .socialContent .socialLinks {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-section .about-container .socialContent .socialLinks .gmail {
+        font-size: 1rem;
+        color: var(--comman-heading-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+/* responsive for surface duo --------------------------------------*/
+@media(max-width:600px) {
+    .about-section {
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    .about-section .about-container {
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+        background-color: var(--content-background-color);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .about-section .about-container .about-content {
+        width: 100%;
+    }
+
+    .about-section .about-container .about-content .developer-img {
+        width: 230px;
+        height: 230px;
+
+        margin: auto;
+    }
+
+    .about-section .about-container .about-content .developer-img img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .about-section .about-container .about-content .developer-intro {
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        text-align: center;
+        line-height: 1.8rem;
+        font-size: 1rem;
+        font-family: var(--poppins-family);
+    }
+
+    .about-section .about-container .about-line {
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .about-section .about-container .about-line .left {
+        width: 40%;
+        height: 1px;
+        background-color: var(--comman-heading-color);
+    }
+
+
+    .about-section .about-container .about-line .mid {
+        font-size: 0.8rem;
+        color: black;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-section .about-container .about-line .mid img {
+        margin-left: 4px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .about-section .about-container .about-line .right {
+        width: 40%;
+        height: 1px;
+        background-color: var(--comman-heading-color);
+    }
+
+    .about-section .about-container .socialContent {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .about-section .about-container .socialContent .socialLinks {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-section .about-container .socialContent .socialLinks .gmail {
+        font-size: 0.8rem;
+        color: var(--comman-heading-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section .about-container .socialContent .socialLinks .gmail i {
+        font-size: 20px;
+        color: var(--comman-heading-color);
+        margin-right: 5px;
+
+    }
+
+    .about-section .about-container .socialContent .socialLinks .icons {
+
+        margin-top: 10px;
+
+    }
+
+    .about-section .about-container .socialContent .socialLinks .icons i {
+        font-size: 23px;
+        color: var(--comman-heading-color);
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    /* Responsive Breakpoints ------------------------------------------ */
+
+}
+
+@media(max-width:480px) {
+    .about-section {
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    .about-section .about-container {
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+        background-color: var(--content-background-color);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .about-section .about-container .about-content {
+        width: 100%;
+    }
+
+    .about-section .about-container .about-content .developer-img {
+        width: 200px;
+        height: 200px;
+
+        margin: auto;
+    }
+
+    .about-section .about-container .about-content .developer-img img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .about-section .about-container .about-content .developer-intro {
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+        font-family: var(--poppins-family);
+    }
+
+    .about-section .about-container .about-content .developer-intro img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .about-section .about-container .about-content .developer-intro #personal-detail {
+
+        color: var(--comman-heading-color);
+    }
+
+    .about-section .about-container .about-line {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .about-section .about-container .about-line .left {
+        width: 38%;
+        height: 1px;
+        background-color: var(--comman-heading-color);
+    }
+
+
+    .about-section .about-container .about-line .mid {
+        font-size: 0.7rem;
+        color: black;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-section .about-container .about-line .mid img {
+        margin-left: 4px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .about-section .about-container .about-line .right {
+        width: 38%;
+        height: 1px;
+        background-color: var(--comman-heading-color);
+    }
+
+    .about-section .about-container .socialContent {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .about-section .about-container .socialContent .socialLinks {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-section .about-container .socialContent .socialLinks .gmail {
+        font-size: 0.8rem;
+        color: var(--comman-heading-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section .about-container .socialContent .socialLinks .gmail i {
+        font-size: 20px;
+        color: var(--comman-heading-color);
+        margin-right: 5px;
+
+    }
+
+    .about-section .about-container .socialContent .socialLinks .icons {
+
+        margin-top: 10px;
+
+    }
+
+    .about-section .about-container .socialContent .socialLinks .icons i {
+        font-size: 23px;
+        color: var(--comman-heading-color);
+        cursor: pointer;
+        margin: 5px;
+    }
+
+}
+
+@media(max-width:300px) {
+    .about-section {
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    .about-section .about-container {
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+        background-color: var(--content-background-color);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .about-section .about-container .about-content {
+        width: 100%;
+    }
+
+    .about-section .about-container .about-content .developer-img {
+        width: 160px;
+        height: 160px;
+
+        margin: auto;
+    }
+
+    .about-section .about-container .about-content .developer-img img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .about-section .about-container .about-content .developer-intro {
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 0.7rem;
+        font-family: var(--poppins-family);
+    }
+
+    .about-section .about-container .about-content .developer-intro img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .about-section .about-container .about-line {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 15px;
+        align-items: center;
+    }
+
+    .about-section .about-container .about-line .left {
+        width: 35%;
+        height: 1px;
+        background-color: var(--comman-heading-color);
+    }
+
+
+    .about-section .about-container .about-line .mid {
+        font-size: 0.6 rem;
+        color: black;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-section .about-container .about-line .mid img {
+        margin-left: 4px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .about-section .about-container .about-line .right {
+        width: 35%;
+        height: 1px;
+        background-color: var(--comman-heading-color);
+    }
+
+    .about-section .about-container .socialContent {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .about-section .about-container .socialContent .socialLinks {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .about-section .about-container .socialContent .socialLinks .gmail {
+        font-size: 0.7rem;
+        color: var(--comman-heading-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section .about-container .socialContent .socialLinks .gmail i {
+        font-size: 15px;
+        color: var(--comman-heading-color);
+        margin-right: 5px;
+
+    }
+
+    .about-section .about-container .socialContent .socialLinks .icons {
+
+        margin-top: 10px;
+
+    }
+
+    .about-section .about-container .socialContent .socialLinks .icons i {
+        font-size: 20px;
+        color: var(--comman-heading-color);
+        cursor: pointer;
+        margin: 5px;
+    }
+
+}

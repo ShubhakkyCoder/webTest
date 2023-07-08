@@ -23,6 +23,10 @@ export const Navbar = () => {
         })
     }
 
+    useEffect(()=>{
+        NavbarAnimation();
+    },[])
+
     return <>
 
         <header className="navbar-header" id="navbar">

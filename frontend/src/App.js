@@ -15,8 +15,8 @@ export const  App=()=>{
     <Routes>
     
         <Route path="/" element={<Dashboard/>}>
-        <Route path="" element={<IndexComponent/>}/>
-        <Route path="shubh/resources" element={<LearningResourcesComponent/>}/>
+        <Route path="shubh/index" element={<IndexComponent/>}/>
+       
         </Route>
         
        
